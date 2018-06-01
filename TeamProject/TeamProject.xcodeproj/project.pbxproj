@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		72000CF420C120C900EFC3A5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72000CF320C120C900EFC3A5 /* libsqlite3.0.tbd */; };
 		72000D0720C127D200EFC3A5 /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72000D0620C127D200EFC3A5 /* BuildingTableViewController.swift */; };
+		7239A13D20C1346400D2DCC1 /* CalendarView in Resources */ = {isa = PBXBuildFile; fileRef = 7239A13C20C1346400D2DCC1 /* CalendarView */; };
 		E81EE3B720C0066500D00E6A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81EE3B620C0066500D00E6A /* MenuViewController.swift */; };
 		E81EE3B920C0073300D00E6A /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81EE3B820C0073300D00E6A /* MenuTableViewController.swift */; };
 		E83C257920BEB71200DF857A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C257820BEB71200DF857A /* AppDelegate.swift */; };
@@ -24,16 +25,13 @@
 		E8DD314620C130C40006F2B7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DD313F20C130C40006F2B7 /* FMResultSet.m */; };
 		E8DD314720C130C40006F2B7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DD314120C130C40006F2B7 /* FMDatabaseAdditions.m */; };
 		E8DD314820C130C40006F2B7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DD314320C130C40006F2B7 /* FMDatabase.m */; };
-		E8E2AE9F20C133D800294A1A /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E2AE9B20C133D800294A1A /* CalenderView.swift */; };
-		E8E2AEA020C133D800294A1A /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E2AE9C20C133D800294A1A /* MonthView.swift */; };
-		E8E2AEA120C133D800294A1A /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E2AE9D20C133D800294A1A /* CalendarViewController.swift */; };
-		E8E2AEA220C133D800294A1A /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E2AE9E20C133D800294A1A /* WeekdaysView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72000CF320C120C900EFC3A5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		72000CF520C1222000EFC3A5 /* TeamProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeamProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		72000D0620C127D200EFC3A5 /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
+		7239A13C20C1346400D2DCC1 /* CalendarView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CalendarView; path = TeamProject/CalendarView; sourceTree = SOURCE_ROOT; };
 		E81EE3B620C0066500D00E6A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		E81EE3B820C0073300D00E6A /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		E83C257520BEB71200DF857A /* TeamProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,10 +55,6 @@
 		E8DD314120C130C40006F2B7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		E8DD314220C130C40006F2B7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
 		E8DD314320C130C40006F2B7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		E8E2AE9B20C133D800294A1A /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
-		E8E2AE9C20C133D800294A1A /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
-		E8E2AE9D20C133D800294A1A /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		E8E2AE9E20C133D800294A1A /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +97,7 @@
 		E83C257720BEB71200DF857A /* TeamProject */ = {
 			isa = PBXGroup;
 			children = (
-				E8E2AE9A20C133D800294A1A /* CalendarView */,
+				7239A13C20C1346400D2DCC1 /* CalendarView */,
 				E83C259020BEC9CB00DF857A /* IMG_0915.jpg */,
 				E83C259220BEC9D800DF857A /* KNULOG.jpg */,
 				E83C257820BEB71200DF857A /* AppDelegate.swift */,
@@ -130,18 +124,6 @@
 				E8DD313F20C130C40006F2B7 /* FMResultSet.m */,
 			);
 			path = TeamProject;
-			sourceTree = "<group>";
-		};
-		E8E2AE9A20C133D800294A1A /* CalendarView */ = {
-			isa = PBXGroup;
-			children = (
-				E8E2AE9B20C133D800294A1A /* CalenderView.swift */,
-				E8E2AE9C20C133D800294A1A /* MonthView.swift */,
-				E8E2AE9D20C133D800294A1A /* CalendarViewController.swift */,
-				E8E2AE9E20C133D800294A1A /* WeekdaysView.swift */,
-			);
-			name = CalendarView;
-			path = "../../../../../.Trash/TeamProject 오후 4.39.23/TeamProject/CalendarView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E83C259320BEC9D800DF857A /* KNULOG.jpg in Resources */,
+				7239A13D20C1346400D2DCC1 /* CalendarView in Resources */,
 				E83C258320BEB71300DF857A /* LaunchScreen.storyboard in Resources */,
 				E83C258020BEB71300DF857A /* Assets.xcassets in Resources */,
 				E83C259120BEC9CB00DF857A /* IMG_0915.jpg in Resources */,
@@ -218,10 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8E2AEA020C133D800294A1A /* MonthView.swift in Sources */,
 				E81EE3B920C0073300D00E6A /* MenuTableViewController.swift in Sources */,
 				E83C258D20BEB78C00DF857A /* LoginViewController.swift in Sources */,
-				E8E2AE9F20C133D800294A1A /* CalenderView.swift in Sources */,
 				72000D0720C127D200EFC3A5 /* BuildingTableViewController.swift in Sources */,
 				E8DD314420C130C40006F2B7 /* FMDatabaseQueue.m in Sources */,
 				E83C257B20BEB71200DF857A /* ViewController.swift in Sources */,
@@ -230,8 +211,6 @@
 				E83C257920BEB71200DF857A /* AppDelegate.swift in Sources */,
 				E81EE3B720C0066500D00E6A /* MenuViewController.swift in Sources */,
 				E8DD314820C130C40006F2B7 /* FMDatabase.m in Sources */,
-				E8E2AEA120C133D800294A1A /* CalendarViewController.swift in Sources */,
-				E8E2AEA220C133D800294A1A /* WeekdaysView.swift in Sources */,
 				E8DD314720C130C40006F2B7 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
