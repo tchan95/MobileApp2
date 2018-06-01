@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72000CF420C120C900EFC3A5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72000CF320C120C900EFC3A5 /* libsqlite3.0.tbd */; };
+		72000D0120C1222200EFC3A5 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72000CF720C1222100EFC3A5 /* FMDatabaseAdditions.m */; };
+		72000D0220C1222200EFC3A5 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 72000CF820C1222100EFC3A5 /* FMResultSet.m */; };
+		72000D0320C1222200EFC3A5 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 72000CFA20C1222100EFC3A5 /* FMDatabase.m */; };
+		72000D0420C1222200EFC3A5 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 72000CFD20C1222200EFC3A5 /* FMDatabasePool.m */; };
+		72000D0520C1222200EFC3A5 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 72000CFE20C1222200EFC3A5 /* FMDatabaseQueue.m */; };
+		72000D0720C127D200EFC3A5 /* BuildingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72000D0620C127D200EFC3A5 /* BuildingTableViewController.swift */; };
 		E81EE3B720C0066500D00E6A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81EE3B620C0066500D00E6A /* MenuViewController.swift */; };
 		E81EE3B920C0073300D00E6A /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81EE3B820C0073300D00E6A /* MenuTableViewController.swift */; };
 		E83C257920BEB71200DF857A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C257820BEB71200DF857A /* AppDelegate.swift */; };
@@ -20,6 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72000CF320C120C900EFC3A5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		72000CF520C1222000EFC3A5 /* TeamProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeamProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		72000CF620C1222100EFC3A5 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabaseQueue.h"; sourceTree = "<group>"; };
+		72000CF720C1222100EFC3A5 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		72000CF820C1222100EFC3A5 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMResultSet.m"; sourceTree = "<group>"; };
+		72000CF920C1222100EFC3A5 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabase.h"; sourceTree = "<group>"; };
+		72000CFA20C1222100EFC3A5 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabase.m"; sourceTree = "<group>"; };
+		72000CFB20C1222100EFC3A5 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
+		72000CFC20C1222100EFC3A5 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabasePool.h"; sourceTree = "<group>"; };
+		72000CFD20C1222200EFC3A5 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabasePool.m"; sourceTree = "<group>"; };
+		72000CFE20C1222200EFC3A5 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		72000CFF20C1222200EFC3A5 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
+		72000D0020C1222200EFC3A5 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDB.h"; sourceTree = "<group>"; };
+		72000D0620C127D200EFC3A5 /* BuildingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTableViewController.swift; sourceTree = "<group>"; };
 		E81EE3B620C0066500D00E6A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		E81EE3B820C0073300D00E6A /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		E83C257520BEB71200DF857A /* TeamProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,17 +60,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72000CF420C120C900EFC3A5 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72000CF220C120C900EFC3A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72000CF320C120C900EFC3A5 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E83C256C20BEB71200DF857A = {
 			isa = PBXGroup;
 			children = (
 				E83C257720BEB71200DF857A /* TeamProject */,
 				E83C257620BEB71200DF857A /* Products */,
+				72000CF220C120C900EFC3A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,9 +103,22 @@
 				E83C257F20BEB71300DF857A /* Assets.xcassets */,
 				E83C258120BEB71300DF857A /* LaunchScreen.storyboard */,
 				E81EE3B620C0066500D00E6A /* MenuViewController.swift */,
+				72000D0620C127D200EFC3A5 /* BuildingTableViewController.swift */,
 				E83C258420BEB71300DF857A /* Info.plist */,
 				E83C258C20BEB78C00DF857A /* LoginViewController.swift */,
 				E81EE3B820C0073300D00E6A /* MenuTableViewController.swift */,
+				72000CF920C1222100EFC3A5 /* FMDatabase.h */,
+				72000CFA20C1222100EFC3A5 /* FMDatabase.m */,
+				72000CFB20C1222100EFC3A5 /* FMDatabaseAdditions.h */,
+				72000CF720C1222100EFC3A5 /* FMDatabaseAdditions.m */,
+				72000CFC20C1222100EFC3A5 /* FMDatabasePool.h */,
+				72000CFD20C1222200EFC3A5 /* FMDatabasePool.m */,
+				72000CF620C1222100EFC3A5 /* FMDatabaseQueue.h */,
+				72000CFE20C1222200EFC3A5 /* FMDatabaseQueue.m */,
+				72000D0020C1222200EFC3A5 /* FMDB.h */,
+				72000CFF20C1222200EFC3A5 /* FMResultSet.h */,
+				72000CF820C1222100EFC3A5 /* FMResultSet.m */,
+				72000CF520C1222000EFC3A5 /* TeamProject-Bridging-Header.h */,
 			);
 			path = TeamProject;
 			sourceTree = "<group>";
@@ -111,6 +155,7 @@
 				TargetAttributes = {
 					E83C257420BEB71200DF857A = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -154,9 +199,15 @@
 			files = (
 				E81EE3B920C0073300D00E6A /* MenuTableViewController.swift in Sources */,
 				E83C258D20BEB78C00DF857A /* LoginViewController.swift in Sources */,
+				72000D0220C1222200EFC3A5 /* FMResultSet.m in Sources */,
+				72000D0720C127D200EFC3A5 /* BuildingTableViewController.swift in Sources */,
 				E83C257B20BEB71200DF857A /* ViewController.swift in Sources */,
+				72000D0420C1222200EFC3A5 /* FMDatabasePool.m in Sources */,
+				72000D0520C1222200EFC3A5 /* FMDatabaseQueue.m in Sources */,
 				E83C257920BEB71200DF857A /* AppDelegate.swift in Sources */,
 				E81EE3B720C0066500D00E6A /* MenuViewController.swift in Sources */,
+				72000D0120C1222200EFC3A5 /* FMDatabaseAdditions.m in Sources */,
+				72000D0320C1222200EFC3A5 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TeamProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,6 +360,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.knu.comp420.2014105110.TeamProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamProject/TeamProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TeamProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,6 +380,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.knu.comp420.2014105110.TeamProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamProject/TeamProject-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
