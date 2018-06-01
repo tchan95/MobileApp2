@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M3I-VL-NUk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M3I-VL-NUk">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -201,7 +201,7 @@
         <!-- 건물 선택-->
         <scene sceneID="7NT-oI-5UG">
             <objects>
-                <viewController id="cKj-2Q-kzW" customClass="BuildingTableViewController" customModule="TeamProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cKj-2Q-kzW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sex-Vp-t4l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,46 +213,31 @@
                                     <outlet property="delegate" destination="cKj-2Q-kzW" id="QLh-Cq-CzL"/>
                                 </connections>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iXc-Sz-cYv">
-                                <rect key="frame" x="0.0" y="144" width="375" height="634"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="iul-W6-hcF">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iul-W6-hcF" id="Fje-kd-KAx">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="y4n-0o-yDY">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="y4n-0o-yDY" id="Y9f-yt-jBf">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2u-51-Idx">
+                                <rect key="frame" x="0.0" y="144" width="375" height="668"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="iXc-Sz-cYv" firstAttribute="top" secondItem="xSp-Or-hxJ" secondAttribute="bottom" id="ClA-4B-goe"/>
+                            <constraint firstItem="d2u-51-Idx" firstAttribute="top" secondItem="xSp-Or-hxJ" secondAttribute="bottom" id="8gg-Hg-8Gm"/>
+                            <constraint firstItem="d2u-51-Idx" firstAttribute="trailing" secondItem="2qT-Rj-0V8" secondAttribute="trailing" id="Ama-gU-BSA"/>
+                            <constraint firstItem="d2u-51-Idx" firstAttribute="leading" secondItem="2qT-Rj-0V8" secondAttribute="leading" id="Kmx-3k-3Re"/>
                             <constraint firstItem="xSp-Or-hxJ" firstAttribute="leading" secondItem="2qT-Rj-0V8" secondAttribute="leading" id="RLG-fw-QCa"/>
                             <constraint firstItem="xSp-Or-hxJ" firstAttribute="top" secondItem="2qT-Rj-0V8" secondAttribute="top" id="SLJ-OQ-dgF"/>
-                            <constraint firstItem="iXc-Sz-cYv" firstAttribute="top" secondItem="xSp-Or-hxJ" secondAttribute="bottom" id="UgE-Bb-uOe"/>
-                            <constraint firstItem="2qT-Rj-0V8" firstAttribute="bottom" secondItem="iXc-Sz-cYv" secondAttribute="bottom" id="dOp-pH-MCI"/>
-                            <constraint firstItem="iXc-Sz-cYv" firstAttribute="trailing" secondItem="2qT-Rj-0V8" secondAttribute="trailing" id="tKe-8K-jVy"/>
-                            <constraint firstItem="iXc-Sz-cYv" firstAttribute="leading" secondItem="2qT-Rj-0V8" secondAttribute="leading" id="yVH-cB-vze"/>
+                            <constraint firstAttribute="bottom" secondItem="d2u-51-Idx" secondAttribute="bottom" id="lMw-AP-PPK"/>
                             <constraint firstItem="xSp-Or-hxJ" firstAttribute="trailing" secondItem="2qT-Rj-0V8" secondAttribute="trailing" id="zYR-2i-QoF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2qT-Rj-0V8"/>
                     </view>
-                    <navigationItem key="navigationItem" title=" 건물 선택" id="Z4a-rn-fRi"/>
+                    <navigationItem key="navigationItem" title=" 건물 선택" id="Z4a-rn-fRi">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="zej-eZ-Iwv">
+                            <connections>
+                                <segue destination="T3u-zc-XpL" kind="show" id="45C-Xd-iRH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="1vO-4d-RS7" id="xh1-kK-C9f"/>
-                        <outlet property="table" destination="iXc-Sz-cYv" id="bKA-zh-h0y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eVW-pJ-Tdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -266,7 +251,22 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="2840.8000000000002" y="-405.24737631184411"/>
+            <point key="canvasLocation" x="2840.8000000000002" y="-405.66502463054189"/>
+        </scene>
+        <!--Calendar View Controller-->
+        <scene sceneID="4nu-0p-jt8">
+            <objects>
+                <viewController id="T3u-zc-XpL" customClass="CalendarViewController" customModule="TeamProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kGf-ad-cG5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vqz-kB-vjI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZfB-74-Qr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4028" y="-406"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="13G-N8-hrY">
