@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BookCheckViewController.swift"
+            timestampString = "550576189.233567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "BookCheckViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TeamProject.BookCheckViewController.rocateLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "TeamProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple11/Desktop/%E1%84%86%E1%85%A9%E1%84%8B%E1%85%A2%E1%86%B82%203%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A9%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3/iOS%20teamProject%203/TeamProject%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.39.23/BookCheckViewController.swift"
+                  timestampString = "550559789.878235"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TeamProject.BookCheckViewController.rocateLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "TeamProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple11/Desktop/%E1%84%86%E1%85%A9%E1%84%8B%E1%85%A2%E1%86%B82%203%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A9%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3/iOS%20teamProject%203/TeamProject%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.39.23/BookCheckViewController.swift"
+                  timestampString = "550559789.882813"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TeamProject.BookCheckViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; TeamProject.BookCheckViewController"
+                  moduleName = "TeamProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple11/Desktop/%E1%84%86%E1%85%A9%E1%84%8B%E1%85%A2%E1%86%B82%203%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A9%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3/iOS%20teamProject%203/TeamProject%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.39.23/BookCheckViewController.swift"
+                  timestampString = "550559789.8863029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TeamProject.BookCheckViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;TeamProject.BookCheckViewController&gt;"
+                  moduleName = "TeamProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple11/Desktop/%E1%84%86%E1%85%A9%E1%84%8B%E1%85%A2%E1%86%B82%203%E1%84%90%E1%85%B5%E1%86%B7%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A9%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3/iOS%20teamProject%203/TeamProject%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.39.23/BookCheckViewController.swift"
+                  timestampString = "550559789.892256"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "302">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

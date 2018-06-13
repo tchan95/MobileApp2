@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReservationMgmtTableViewCell" rowHeight="159" id="KGk-i7-Jjw" customClass="ReservationMgmtTableViewCell" customModule="TeamProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="159"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="330" height="158.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleAspectFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T3G-Ia-N0C">
+                        <rect key="frame" x="0.0" y="0.0" width="330" height="159"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2dL-Pg-Sm7">
+                                <rect key="frame" x="8" y="0.0" width="300" height="159"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="YEk-ib-TTV">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="25.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="예약자 : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfm-bl-s1J">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="25.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="yrv-Ff-e04"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upB-Pa-Jdw">
+                                                <rect key="frame" x="83" y="0.0" width="217" height="25.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" alignment="top" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="JF5-Ca-Csh">
+                                        <rect key="frame" x="0.0" y="33.5" width="300" height="25.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="학번 :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBK-uy-g9V">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yMw-vJ-6Ju">
+                                                <rect key="frame" x="83" y="0.0" width="217" height="25.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" alignment="top" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dkt-e5-yP5">
+                                        <rect key="frame" x="0.0" y="67" width="300" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="예약 장소 :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ur2-Wq-NhF">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngc-Da-L53">
+                                                <rect key="frame" x="83" y="0.0" width="217" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" alignment="top" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="S8c-n8-01N">
+                                        <rect key="frame" x="0.0" y="100" width="300" height="25.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="예약 날짜 :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9m-Eq-HHH">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcY-2w-h1g">
+                                                <rect key="frame" x="83" y="0.0" width="217" height="25.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" alignment="top" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Gj0-JZ-ro1">
+                                        <rect key="frame" x="0.0" y="133.5" width="300" height="25.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="예약 시간 :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8A-HE-bdh">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOZ-mW-uQ7">
+                                                <rect key="frame" x="83" y="0.0" width="217" height="25.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ur2-Wq-NhF" firstAttribute="width" secondItem="Cfm-bl-s1J" secondAttribute="width" id="AYt-m9-UUX"/>
+                                    <constraint firstItem="T8A-HE-bdh" firstAttribute="width" secondItem="Cfm-bl-s1J" secondAttribute="width" id="RJq-pE-HYg"/>
+                                    <constraint firstAttribute="width" constant="300" id="YUc-UI-sIw"/>
+                                    <constraint firstItem="K9m-Eq-HHH" firstAttribute="width" secondItem="Cfm-bl-s1J" secondAttribute="width" id="eL3-dM-uNU"/>
+                                    <constraint firstItem="eBK-uy-g9V" firstAttribute="width" secondItem="Cfm-bl-s1J" secondAttribute="width" id="huB-Lq-uKC"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2dL-Pg-Sm7" firstAttribute="leading" secondItem="T3G-Ia-N0C" secondAttribute="leading" id="IZ0-p0-Lko"/>
+                            <constraint firstAttribute="bottom" secondItem="2dL-Pg-Sm7" secondAttribute="bottom" id="hVb-Oh-5ss"/>
+                            <constraint firstAttribute="trailing" secondItem="2dL-Pg-Sm7" secondAttribute="trailing" id="hwS-hO-fTx"/>
+                            <constraint firstItem="2dL-Pg-Sm7" firstAttribute="top" secondItem="T3G-Ia-N0C" secondAttribute="top" id="rK3-Fe-4zw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="T3G-Ia-N0C" secondAttribute="trailing" id="LeM-ui-jem"/>
+                    <constraint firstItem="T3G-Ia-N0C" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YOx-qJ-n6y"/>
+                    <constraint firstAttribute="bottom" secondItem="T3G-Ia-N0C" secondAttribute="bottom" id="qtY-XJ-vup"/>
+                    <constraint firstItem="T3G-Ia-N0C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="wIi-zx-KEY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="customView" destination="T3G-Ia-N0C" id="SSE-3u-GvI"/>
+                <outlet property="dateLabel" destination="EcY-2w-h1g" id="dRe-9T-XeQ"/>
+                <outlet property="locaLabel" destination="Ngc-Da-L53" id="50Y-3t-KeD"/>
+                <outlet property="nameLabel" destination="upB-Pa-Jdw" id="lOd-eu-wQT"/>
+                <outlet property="sidLabel" destination="yMw-vJ-6Ju" id="kkf-sV-mdN"/>
+                <outlet property="timeLabel" destination="cOZ-mW-uQ7" id="Xmy-5J-3ou"/>
+            </connections>
+            <point key="canvasLocation" x="11" y="109"/>
+        </tableViewCell>
+    </objects>
+</document>
